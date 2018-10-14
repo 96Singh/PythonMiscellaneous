@@ -15,5 +15,7 @@ try:
 			if int(guess) == result:
 				print('Yep, you guessed right!')
 				break
+
 except:
-	print('\nPlease enter a number when you next run the script.')
+	print("\nValue entered must be a number")
+	print('Please enter a number when you next run the script.')
