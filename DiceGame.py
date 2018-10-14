@@ -1,5 +1,5 @@
 #! /usr/bin/python3
-# DiceGuessingGame
+#DiceGuessingGame
 #Simple and fun dice game.
 
 from random import randint
@@ -18,4 +18,6 @@ try:
 
 except:
 	print("\nValue entered must be a number")
-	print('Please enter a number when you next run the script.')
+	print('Please enter a number the next time the game is played.')
+	print('Game now terminating')
+	print('Thank you for playing')
