@@ -1,4 +1,4 @@
-#! /usr/bin/python3
+#!/usr/bin/python
 #DiceGuessingGame
 #Simple and fun dice game.
 
@@ -15,7 +15,6 @@ try:
 			if int(guess) == result:
 				print('Yep, you guessed right!')
 				break
-
 except:
 	print("\nValue entered must be a number")
 	print('Please enter a number the next time the game is played.')
